@@ -254,4 +254,26 @@
 
     }
 
+    @media screen and (max-width: 768px) {
+        .aboutme {
+            flex-direction: column;
+        }
+    
+        .bio {
+            text-align: left;
+        }
+        .bio img{
+            width: 2%;
+        }
+    
+        .footer {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .social-links {
+            justify-content: center;
+        }
+    }
+
 
